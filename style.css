@@ -1,0 +1,139 @@
+h1,
+h2,
+h3,
+p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: rgb(97, 62, 53);
+}
+
+.logo {
+  width: 300px;
+  height: 100px;
+  margin-left: 5%;
+  border-radius: 5%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  color: cornsilk;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.menu ul li {
+  padding: 5%;
+}
+
+footer a {
+  color: brown;
+}
+
+h1 p {
+  font-size: 16px;
+}
+
+header nav ul li a {
+  color: rgb(220, 207, 20);
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1 {
+  background-color: rgb(141, 80, 255);
+}
+
+.texto {
+  font-size: 30px;
+}
+
+.img {
+  width: 100%;
+}
+
+header {
+  border: 4px rgb(12, 233, 86);
+  border-radius: 40px;
+}
+
+p {
+  margin: 50px;
+}
+h2 {
+  text-align: center;
+}
+
+/*GRID*/
+
+body {
+  height: 100%;
+  overflow: visible;
+}
+
+.grid-container {
+  display: grid;
+  gap: 5px;
+  background-color: #020d16;
+  padding: 5px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item5 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
+
+.sobre-nosotros{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-sobre-nosotros{
+  text-align: center;
+}
+
+.text-sobre-nosotros{
+  width: 50%;
+  height: auto;
+}
+.text-sobre-nosotros img{
+  width: 90%;
+}
+
